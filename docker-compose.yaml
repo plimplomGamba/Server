@@ -1,0 +1,28 @@
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: root
+      POSTGRES_USER: root
+      POSTGRES_DB: gamba
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  service:
+    image: plimplom/plimplomgamba:server-latest
+    depends_on:
+      - db
+    environment:
+      KEYSTORE_PASS: plimplom
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: gamba
+      DB_USER: root
+      DB_PASS: root
+    ports:
+      - "8080:8080"
+
+volumes:
+  pgdata:

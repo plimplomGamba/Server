@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'jetbrains-regular';
+    src: local('JetBrains Mono');
+}
+#outlet{
+    height: max-content;
+}

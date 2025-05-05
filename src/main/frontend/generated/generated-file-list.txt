@@ -1,0 +1,12 @@
+GambaConfigClient.ts
+StatsController.ts
+de/plimplom/gamba/server/stats/StatsWrapper.ts
+de/plimplom/gamba/server/stats/StatsDTO.ts
+de/plimplom/gamba/server/stats/DetailedStats.ts
+de/plimplom/gamba/server/stats/GameMode.ts
+connect-client.default.ts
+endpoints.ts
+de/plimplom/gamba/server/stats/StatsWrapperModel.ts
+de/plimplom/gamba/server/stats/StatsDTOModel.ts
+de/plimplom/gamba/server/stats/DetailedStatsModel.ts
+de/plimplom/gamba/server/stats/GameModeModel.ts
