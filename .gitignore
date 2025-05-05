@@ -46,3 +46,6 @@ build/
 .idea/dataSources.local.xml
 
 src/main/frontend/generated
+src/main/bundles
+
+vite.generated.ts
