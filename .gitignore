@@ -44,3 +44,5 @@ build/
 # Datasource local storage ignored files
 .idea/dataSources/
 .idea/dataSources.local.xml
+
+src/main/frontend/generated
